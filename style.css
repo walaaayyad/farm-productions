@@ -201,7 +201,7 @@ h1,h2,h3 {
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover; 
-    background-color: rgba(57, 57, 57, 0.9); 
+    background-color: rgba(0, 0, 0, 0.8); 
     background-blend-mode: darken;
     background-attachment: fixed;
     color: var(--light-green);
@@ -235,3 +235,37 @@ h1,h2,h3 {
 
 /*  end news */
 
+/*  start footer */
+footer {
+    background-color: var(--dark);
+    color: var(--light-green);
+}
+footer .social-icons {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.footer-brand i,
+.footer-brand .gold {
+    color: var(--yellow);
+}
+.footer-brand .logoSecPart {
+    font-size: 15px;
+    display: block;
+    line-height: normal;
+}
+/*  end footer */
+
+
+
+@media (max-width: 900px) {
+    .about-card {
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-card {
+        margin-top: 0;
+        height: unset;
+    }
+}
