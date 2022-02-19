@@ -1,0 +1,26 @@
+/*
+pallet[ https://colorhunt.co/palette/393939849561eed690ecefd8 ]
+*/
+:root {
+    --dark: #393939;
+    --green: #849561;
+    --yellow: #EED690;
+    --light-green: #ECEFD8;
+}
+body {
+    font-family: serif;
+    overflow-x: hidden;
+}
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h1,h2,h3 {
+    text-transform: uppercase;
+}
+/*  start top bar */
+.top-bar {
+    background-color: var(--dark);
+    color: var(--yellow);
+}
+/*  end top bar */
