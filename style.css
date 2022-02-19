@@ -128,3 +128,110 @@ h1,h2,h3 {
 }
 /*  end features */
 
+/*  start about us */
+.about-us {
+    background-color: var(--green);
+}
+.about-us span {
+    color: var(--yellow);
+}
+.about-us h2::after {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: var(--yellow);
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+}
+.about-us .btn {
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+}
+.about-us .btn:hover {
+    background-color: var(--yellow);
+    color: var(--dark);
+}
+/*  end about us */
+
+/*  start what-we-do */
+.our-services {
+    background-color: var(--light-green);
+}
+.our-services span,
+.our-services h5 {
+    color: var(--green);
+}
+.our-services h2::after,
+.our-services h5::after {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: var(--green);
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+}
+.our-services h5::after {
+    margin: 7px 0;
+}
+.what-we-do .first {
+    background: rgb(132,149,97);
+    background: linear-gradient(90deg, rgba(236,239,216,0.5)  0%, rgba(238,214,144,0.5) 50%, rgba(132,149,97,0.5) 100%);
+    border-left: 3px dotted var(--green);
+}
+.what-we-do .second {
+    background: rgb(132,149,97);
+    background: linear-gradient(90deg, rgba(132,149,97,0.5) 0%, rgba(238,214,144,0.5) 50%, rgba(236,239,216,0.5) 100%);
+    border-right: 3px dotted var(--green);
+}
+.our-services .btn {
+    color: var(--green);
+    border: 1px solid var(--green);
+}
+.what-we-do .btn:hover {
+    background-color: var(--green);
+    color: var(--yellow);
+}
+/*  end what-we-do */
+
+/*  start news */
+.news {
+    background-image: url('./img/pexels-jonathan-petersson-1297307.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+    background-color: rgba(57, 57, 57, 0.9); 
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    color: var(--light-green);
+}
+.news span {
+    color: var(--green);
+}
+.news h2::after,
+.news h5::after {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: var(--light-green);
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+}
+.news h5::after {
+    margin: 7px 0;
+}
+.news .btn {
+    color: var(--light-green);
+    border: 1px solid var(--light-green);
+    width: 100px;
+    margin-left: auto;
+}
+.news .btn:hover {
+    background-color: var(--light-green);
+    color: var(--dark);
+}
+
+/*  end news */
+
