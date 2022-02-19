@@ -24,3 +24,107 @@ h1,h2,h3 {
     color: var(--yellow);
 }
 /*  end top bar */
+
+/*  start navbar */
+.navbar {
+    background-color: #849561 !important;
+}
+.navbar-brand i,
+.navbar-brand .gold {
+    color: var(--yellow);
+}
+.navbar-brand .logoSecPart {
+    font-size: 15px;
+    display: block;
+    line-height: normal;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #EED690 !important;
+}
+.navbar-collapse {
+    flex-grow: unset;
+}
+/*  end navbar */
+
+/*  start header */
+.header {
+    height: 85vh;
+    background-image: url('./img/pexels-jonathan-petersson-1297307.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: darken;
+    color: var(--yellow);
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .btn {
+    background-color: var(--green);
+    color: var(--yellow);
+    width: 150px;
+    font-size: 1.2rem;
+}
+.header .btn:hover {
+    background-color: var(--yellow);
+    color: var(--dark);
+}
+/*  end header */
+
+/*  start features */
+.features {
+    background-color: var(--light-green);
+}
+.card-col {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.features-card {
+    background-color: var(--green);
+    height: 200px;
+    margin-top: -20%;
+    padding: 10px;
+}
+.features-card.card-1 {
+    background-color: #c3db92;
+}
+.features-card.card-2 {
+    background-color: #a4b97a;
+}
+.features-card i {
+    color: var(--dark);
+    font-size: 30px;
+    margin: 10px;
+}
+.features .btn {
+    color: var(--green);
+    border: 1px solid var(--green);
+}
+.features .btn:hover {
+    background-color: var(--green);
+    color: var(--yellow);
+}
+.features span {
+    color: var(--green);
+}
+.features h2::after {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: var(--green);
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+}
+.features .chooseUs-card {
+    background-color: #ECEFD8 !important;
+}
+.features .chooseUs-card .img-fluid {
+    height: 200px !important;
+    width: 300px !important;
+}
+/*  end features */
+
