@@ -7,6 +7,9 @@ pallet[ https://colorhunt.co/palette/393939849561eed690ecefd8 ]
     --yellow: #EED690;
     --light-green: #ECEFD8;
 }
+html {
+    overflow-x: auto;
+}
 body {
     font-family: serif;
     overflow-x: hidden;
@@ -50,11 +53,11 @@ h1,h2,h3 {
 /*  start header */
 .header {
     height: 85vh;
-    background-image: url('./img/pexels-jonathan-petersson-1297307.jpg');
+    background-image: url('./img/pexels-jonathan-petersson-1198507.jpg');
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover; 
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.7); 
     background-blend-mode: darken;
     color: var(--yellow);
     text-transform: capitalize;
@@ -201,7 +204,7 @@ h1,h2,h3 {
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover; 
-    background-color: rgba(0, 0, 0, 0.8); 
+    background-color: rgba(57, 57, 57, 0.9);  
     background-blend-mode: darken;
     background-attachment: fixed;
     color: var(--light-green);
@@ -267,5 +270,42 @@ footer .social-icons {
     .about-card {
         margin-top: 0;
         height: unset;
+    }
+    .features-card.card-2,
+    .features-card.card-3 {
+        margin-top: 0;
+    }
+    .features .chooseUs-card .img-fluid {
+        width: 450px !important;
+    }
+    .news .btn {
+        margin-left: 20px;
+    }
+    footer .form-control {
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px) {
+    .top-bar {
+        font-size: 0.9rem;
+    }
+    .header h1:first-child{
+        font-size: 17px;
+    }
+    .header p {
+        font-size: 1rem;
+    }
+    .features .chooseUs-card .img-fluid {
+        width: 350px !important;
+    }
+    .about-us h2 {
+        margin-top: 3rem;
+    }
+    .our-services h5 {
+        margin-top: 2rem!important;
+    }
+    footer h5 {
+        font-size: 1rem;
     }
 }
