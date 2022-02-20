@@ -25,12 +25,17 @@ h1,h2,h3 {
 .top-bar {
     background-color: var(--dark);
     color: var(--yellow);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000;
 }
 /*  end top bar */
 
 /*  start navbar */
 .navbar {
     background-color: #849561 !important;
+    transition: all 0.4s ease-in-out;
 }
 .navbar-brand i,
 .navbar-brand .gold {
@@ -47,6 +52,10 @@ h1,h2,h3 {
 }
 .navbar-collapse {
     flex-grow: unset;
+}
+.navbar-top {
+    padding-top: 10px!important;
+    border-bottom: 1px solid var(--yellow);
 }
 /*  end navbar */
 
