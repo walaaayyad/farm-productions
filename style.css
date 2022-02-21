@@ -265,6 +265,14 @@ footer .social-icons {
     display: block;
     line-height: normal;
 }
+footer .btn {
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+}
+footer .btn:hover {
+    color: var(--dark);
+    background-color: var(--light-green);
+}
 /*  end footer */
 
 
@@ -272,6 +280,11 @@ footer .social-icons {
 @media (max-width: 900px) {
     .about-card {
         height: 250px;
+    }
+    footer .subscribe-form {
+        width: 70%;
+        margin: auto !important;
+        margin-top: 30px !important;
     }
 }
 
